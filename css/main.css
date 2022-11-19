@@ -1,0 +1,352 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.conteiner{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.header{
+    background: #EBDBCF;
+    padding-top: 21px;
+    color: #45251C;
+}
+
+.nav{
+    display: flex;
+    column-gap: 30px;
+}
+.logo{
+    width: 130px;
+}
+.nav-list{
+    display: flex;
+    column-gap: 71px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.nav-link{
+    color: #45251C;
+}
+.contacts-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: auto;
+}
+.contact-item img{
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+.main-img{
+    width: 600px;
+}
+.mobile-menu{
+    display: none;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    column-gap: 10px;
+    padding-bottom: 100px;
+    margin-top: 120px;
+}
+
+.header-row h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+}
+.header-row p{
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.8;
+    margin-top: 8px;
+}
+.header-row h2{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 11px;
+    margin-bottom: 13px;
+}
+.createOrder{
+    background: linear-gradient(to top, #75190B 20%, #A63E2E 100%);
+    padding: 13px 35px;
+    color: #EBDBCF;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 25px;
+    box-shadow: 0 0 5px 1px #A63E2E;
+}
+
+.answers-row{
+    background-color: #E4C5C0;
+    color: #45251C;
+    padding-top: 120px;
+}
+.answers-row h1{
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+}
+
+.answers{
+    position: relative;
+    margin-top: 54px;
+    padding-bottom: 70px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.answer-column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 105px;
+    flex: 1 0 0;
+}
+
+
+.answer-item{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    height: 190px;
+    background: linear-gradient(to top, rgba(198, 139, 129, 0.4), #E4C5C0);
+    border-radius: 35px;
+    box-shadow: inset 0 5px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+.answer-item h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.answer-item p{
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+    line-height: 130%;
+}
+.icons1{
+    position: absolute;
+    top: -30px;
+    left: -25px;
+}
+
+.icons2{
+    position: absolute;
+    top: -30px;
+    right: -25px;
+}
+.cakes-img-transform{
+    display: none;
+    text-align: center;
+}
+
+.discount-section{
+    position: relative;
+    background-color: #A63E2E;
+    color: #EBDBCF;
+    padding-top: 50px;
+}
+.discount-row{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 10px;
+}
+.telephone-img{
+    max-width: 500px;
+    margin-top: -150px;
+    margin-left: -100px;
+    margin-bottom: -100px;
+}
+.stocks{
+    max-width: 595px;
+    padding-bottom: 30px;
+}
+.stocks h2{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.stock-item{
+    display: flex;
+    column-gap: 10px;
+}
+.stock-item h3{
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 24px;
+}
+.stock-item p{
+    margin-bottom: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.8;
+    line-height: 130%;
+}
+.precentage{
+   position: absolute;
+   bottom: -60px;
+   right: 0;
+
+}
+.telephone-img2{
+    display: none;
+}
+
+.catalog-section{
+    background-image: url(../img/back.png);
+    background-size: cover;
+    color: #45251C;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.catalog-section h1{
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 70px;
+}
+
+.catalog-names{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+.catalog-names button{
+    display: none;
+}
+.catalog-name.active{
+    padding: 10px;
+    border: 1px solid #45251C;
+    border-radius: 30px;
+    text-decoration: underline;
+}
+
+.catalog-items{
+    display: flex;
+    column-gap: 40px;
+}
+.catalog-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    height: 650px;
+    backdrop-filter: blur(30px);
+    border-radius: 40px;
+}
+.catalog-item-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+.catalog-item-content p{
+    padding: 0 46px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+.all-catalog{
+    margin-top: 60px;
+    text-align: center;
+}
+.points-section{
+    position: relative;
+    background-color: #E4C5C0;
+    color: #45251C;
+    font-weight: 500;
+    padding-top: 88px;
+    padding-bottom: 196px;
+}
+.points-section h1{
+    font-size: 36px;
+    padding-bottom: 38px;
+}
+.points-row{
+    display: flex;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 40px;
+}
+.points-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background: linear-gradient(to top, rgba(198, 139, 129, 0.4), #E4C5C0);
+    box-shadow: inset 0 5px 5px 1px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+.points-content h3{
+    font-size: 24px;
+}
+.points-content p{
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.8;
+    width: 190px;
+}
+.cheesecake{
+    position: absolute;
+    right: 0;
+}
+.cake1{
+    position: absolute;
+    top: 17px;
+    left: 533px;
+}
+
+.cake2{
+    position: absolute;
+    top: 114px;
+    right: 19px;
+}
+.cake3{
+    position: absolute;
+    bottom: 19px;
+    right: 517px;
+}
+
+.cake4{
+    position: absolute;
+    bottom: 206px;
+    left: 88px;
+}
+
+.footer{
+    background-color: #A63E2E;
+    padding-top: 120px;
+}
+
+
+
